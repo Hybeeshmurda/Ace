@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #3c5963;
+  padding:  7px 20px;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height:20px;
+}
+
+.logo {
+  font-size: 20px;
+  font-family: Monospace;
+  color: whitesmoke;
+
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu ul li {
+  list-style: none;
+  margin-left: 40px;
+}
+
+.menu ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size:25px;
+}
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+  font-size:40px;
+}
+
+@media screen and (max-width: 768px) {
+  .menu ul {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .menu-icon a {
+    color: #fff;
+    font-size: 40px;
+  }
+
+  .menu.active ul {
+    display: flex;
+    flex-direction: column;
+    background-color: #3c5963;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 40%;
+    border-radius: 0px 0px 0px 12px;
+    list-style: none;
+    margin-bottom: 20px;
+
+  }
+
+  .menu.active ul li {
+    margin: 10px;
+  }
+}* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #3c5963;
+  padding: 20px;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 20px;
+  font-family: Monospace;
+  color: whitesmoke;
+
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+
+.menu ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .menu ul {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .menu-icon a {
+    color: #fff;
+    font-size: 40px;
+  }
+
+  .menu.active ul {
+    display: flex;
+    flex-direction: column;
+    background-color: #3c5963;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 40%;
+    border-radius: 0px 0px 0px 12px;
+    list-style: none;
+    margin-bottom: 20px;
+
+  }
+
+  .menu.active ul li {
+    margin: 10px;
+  }
+} 
